@@ -1,0 +1,297 @@
+10.139.140.249
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.68
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.107
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.131
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.73
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.136
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.203
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.231
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.70
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.100
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.32
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.11
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.200
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.82
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.169
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.154
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.118
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.116
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.206
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.232
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.226
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.48
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.26
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.225
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.65
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.78
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.23
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.112
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.159
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.29
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.15
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.50
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------
+10.139.140.149
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+---------------------------------

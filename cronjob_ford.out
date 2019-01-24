@@ -1,0 +1,48 @@
+172.16.5.19
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+172.16.5.61
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+172.16.5.92
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+172.16.5.121
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+172.16.5.52
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
+172.16.5.104
+# Chef Name: changePassword
+2 2 * * * /usr/local/bin/changePassword
+##Tomcat log rotation
+15 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*' -daystart -mtime +1 -type f | xargs gzip
+35 00 * * * find /opt/tomcat_*/logs -name 'catalina.*' -daystart -mtime +1 -type f | xargs gzip
+45 00 * * * find /opt/tomcat_*/logs -name 'localhost_access_log.*.gz' -mtime +15 -exec rm -f {} \;
+55 00 * * * find /opt/tomcat_*/logs -name 'catalina.*.gz' -mtime +15 -exec rm -f {} \;
